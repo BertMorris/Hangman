@@ -7,8 +7,7 @@ function App() {
   return (
     // implementing routes to later handle custom game url
     <Routes>
-      <Route path="Hangman/:customWord?" element={<Hangman />} />
-      <Route path="/Leaderboard" element={<Leaderboard />} />
+      <Route path=":customWord?" element={<Hangman />} />
     </Routes>
   );
 }
